@@ -1,0 +1,69 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 13px;
+    background: #253532;
+    margin: auto;
+    padding: 50px 120px;
+}
+
+    /* --> Header <-- */
+
+#base {
+    width: 90%;
+    margin: 80px auto;
+    padding: 50px;
+    background: linear-gradient(-45deg, #1A2724, #1E2D2B);
+}
+
+#base img {
+    border-radius: 100%;
+    border: 3px solid #FFC248;
+    margin-left: 100px;
+    margin-top: 20px;
+    display: block;
+    float: left;
+}
+
+#info-base {
+    display: block;
+    float: right;
+    color: #fff;
+    margin-right: 100px;
+}
+
+#info-base h1 {
+    font-size: 4em;
+    margin-bottom: 13px;
+}
+
+#info-base p {
+    font-size: 17px;
+    margin-left: 30px;
+}
+
+#base hr {
+    margin-top: 250px;
+    margin-bottom: 50px;
+}
+
+    /* --> Portfolio <--*/
+
+#portfolio {
+    padding: 0 30px;
+}
+
+#portfolio aside {
+    font-size: 16px;
+    color: #fff;
+}
+
+#portfolio h3 {
+    font-size: 3.5em;
+}
+
+    /* --> Rodapé <--*/
+
+footer {
+    text-align: center;
+    color: #fff;
+}

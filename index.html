@@ -6,37 +6,112 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
     <link rel="stylesheet" type="text/css" href="css/estilo-principal.css">
-    <title>Cleiton Aquino</title>
+    <title>Cleiton Aquino - Portfólio</title>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+    </style>
+
 </head>
 <body>
-
-    <!-- Header -->
-    <article id="base">
-        <img src="imagens/cleiton_aquino.png" width="150">
-        <header id="info-base">
-            <h1>Cleiton Aquino</h1>         
-            <p>Olá, seja bem-vindo ao meu repositório.<br>
-                Aqui estão alguns estudos e trabalhos que podem te interessar.
-            </p>
+    <article>
+        <!-- TOPO -->
+        <header id="topo">
+            <nav>
+                <ul>
+                    <a href="">
+                        <li>HOME</li>
+                    </a>
+                    <a href="#sobre">
+                        <li>QUEM SOU</li>
+                    </a>
+                    <a href="#trabalho">
+                        <li>TRABALHOS</li>
+                    </a>
+                    <a href="#contato">
+                        <li>CONTATE-ME</li>
+                    </a>
+                </ul>
+                <div id="redes">
+                    <img src="" alt="">
+                    <img src="" alt="">
+                </div>
+            </nav>
+            <h1>Cleiton</h1>
         </header>
-        <hr>
 
-        <!-- Portfolio -->
-        <section id="portfolio">
-            <aside>
-                <h3>Obrigado por chegar até aqui!</h3>
-                <p>
-                    No momento estou trabalhando para adicionar este conteúdo<br>
-                    Mas é muito bom te ver por aqui!<br>
+        <!-- SOBRE -->
+        <section id="sobre">
+            <div class="eu-sou">
+                <h2>Eu sou <br> designer</h2>
+                <p class="ano-trabalho">mais de 7 anos no mercado</p>
+                <p class="eu-texto">
+                    Hoje me dedico a criar sites incríveis,
+                    dinâmicos e responsivos para clientes
+                    especiais como você.
                     <br>
-                    <i>Em breve terei conteúdos legais para te mostrar aqui.<br>Até!</i>
+                    <br>
+                    Me envie a sua dúvida que em breve<br>
+                    estarei entrando em contato.
                 </p>
+                <a class="botao" href="">CLICA AÍ</a>
+            </div>
+            <div class="pessoal">
+                <img src="imagens/cleiton_aquino.png" width="225" alt="Foto Pessoal">
+                <p>
+                    Casado, pai, gosta de jogar e assistir filmes/ séries um pouco nas horas vagas e sempre em busca de novas experiências. Amo tecnologia e sempre fui apaixonado por programação.
+                </p>
+            </div>
+        </section>
+
+        <!--  TRABALHO  -->
+        <section id="trabalho">
+            <aside>
+
+
+                <!-- Colocar o BG como imagem no HTML e aplicar a sombra nele-->
+
+
+                <h3>trabalhos selecionados</h3>
+                <div class="area-portfolio">
+                    <a href="">
+                        <img src="" alt="">
+                    </a>
+                    <a href="">
+                        <img src="" alt="">
+                    </a>
+                    <a href="">
+                        <img src="" alt="">
+                    </a>
+                    <a href="">
+                        <img src="" alt="">
+                    </a>
+                </div>
             </aside>
         </section>
 
-    </article> 
-    <footer>
-        - &COPY; 2021 -
-    </footer>   
+        <!--  CONTATO  -->
+        <section id="contato">
+            <div class="formulario">
+                <header>
+                    <h3>CONTATE-ME</h3>
+                </header>
+                <form action="" method="post">
+                    <div>
+                        <input type="text" name="nome" value="Seu Nome">
+                        <input type="email" name="Seu melhor e-mail">
+                    </div>
+                    <div>
+                        <fieldset>
+                            <textarea name="Mensagem"></textarea>
+                        </fieldset>
+                        <input class="botao" type="submit" name="sender" value="ENVIAR">
+                    </div>
+                </form>
+            </div>
+
+        </section>
+    </article>
+
 </body>
 </html>

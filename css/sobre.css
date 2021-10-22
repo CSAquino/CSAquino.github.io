@@ -4,13 +4,15 @@
     max-width: 813px;
     height: 720px;
     max-height: 720px;
-    background: linear-gradient(186deg, rgb(47, 47, 47, 50%), rgb(47, 47, 47, 100%));
     margin: auto;
     margin-top: -590px;
     padding: 50px;
     position: relative;
     z-index: 10;
-    box-shadow: -10px 15px 10px rgba(73, 73, 73, 25%)
+    background: linear-gradient(180deg, rgba(47, 47, 47, 0.05) 0%, rgba(47, 47, 47, 0.34633) 17.71%, #2F2F2F 56.77%);
+    box-shadow: -10px 15px 10px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(3px);
+    border: 1px solid rgba(255, 255, 255, 0.5);
 }
 
 .eu-sou {

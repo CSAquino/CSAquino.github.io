@@ -14,7 +14,7 @@ body {
 
 #topo {
     width: 100%;
-    height: 853px;
+    height: 800px;
     background: url(../imagens/bg_topo.png) no-repeat 100% center;
     background-size: cover;
 }
@@ -43,34 +43,34 @@ body {
 
 #topo h1 {
     font-family: 'Kaushan Script', cursive;
-    font-size: 50pt;
-    margin-top: 64px;
+    font-size: 60pt;
+    margin-top: 54px;
     margin-bottom: 44px;
     text-align: center;
 }
 
-    /*--> SOBRE <--*/
+    /*----------------> SOBRE <------------------*/
 
 #sobre {
-    max-width: 813px;
-    height: 720px;
-    background: linear-gradient(186deg, rgb(47, 47, 47, 50%), rgb(47, 47, 47, 100%) );
+    max-width: 970px;  
     margin: auto;
-    margin-top: -590px;
-    padding: 50px;
+    margin-top: -540px;
     position: relative;
     z-index: 10;
-    box-shadow: -10px 15px 10px rgba(73, 73, 73, 25%)
+    box-shadow: -10px 15px 10px rgba(73, 73, 73, 25%);
+}
+
+.container-eu-sou {
+    background: linear-gradient(180deg, rgb(47, 47, 47, 50%),  rgb(47, 47, 47, 100%), rgb(47, 47, 47, 100%));
+    margin: auto;
+    padding: 160px 0 132px 0;
 }
 
 .eu-sou {
-    width: 40%;
-    max-width: 40%;
+    width: 400px;
+    display: inline-block;
+    margin-left: 65px;
     text-align: center;
-    display: block;
-    margin-top: 115px;
-    margin-left: 50px;
-    float: left;
 }
 
 .eu-sou h2 {
@@ -109,13 +109,10 @@ body {
 }
 
 .pessoal {
-    width: 40%;
-    max-width: 40%;
-    display: block;
+    width: 400px;
+    display: inline-block;
+    margin-left: 30px;
     text-align: center;
-    float: right;
-    margin-top: 285px;
-    margin-right: 50px;
 }
 
 .pessoal img {
@@ -123,50 +120,65 @@ body {
 }
 
 .pessoal p {
-    font-size: 12px;
+    width: 285px;
+    font-size: 15px;
     text-align: justify;
+    margin: auto;
     margin-top: 20px;
     padding: 0 30px;
 }
 
-    /*--> TRABALHO <--*/
+    /*----------------> TRABALHO <----------------*/
 
 #trabalho {
     width: 100%;
-    height: 768px;
-    background: url(../imagens/bg-textura.png);
+    height: 743px;
+    background: url(../imagens/bg_textura.png);
     background-size: cover;
-    margin-top: -272px;
+    margin-top: -145px;
     padding-top: 1px;
 }
 
 #trabalho aside {
-    max-width: 813px;
+    max-width: 900px;
     height: 720px;
-    background: url(../imagens/bg-trabalhos.png) no-repeat center;
-    background-size: cover;
+    background: url(../imagens/bg-trabalhos.png) no-repeat left;
+    background-size: 992px;
+    background-position-x: -7px;
     margin: auto;
-    margin-top: 150px;
     padding: 50px;
     position: relative;
     z-index: 11;
-    box-shadow: -10px 15px 10px rgba(73, 73, 73, 25%);
+    /*box-shadow: -10px 15px 10px rgba(73, 73, 73, 25%);*/
     text-align: center;
 }
 
-#trabalho aside h3 {
+/*.bg-trabalho {
+    width: 990px;
+    margin-top: -67px;
+    margin-left: -22px;
+}*/
+
+.container-trabalho {
+    height: 800px;
+    /*background: url(../imagens/bg-trabalhos.png) no-repeat bottom;*/
+    background-size: cover;
+    padding-top: 62px;
+}
+
+.container-trabalho aside h3 {
     margin-top: 80px;
     margin-bottom: 50px;
     text-transform: uppercase;
     color: #262729;
 }
 
-    /*--> CONTATO <--*/
+    /*----------------> CONTATO <----------------*/
 
 #contato {
     width: 100%;
     height: 768px;
-    background: url(../imagens/bg-textura-rodape.png);
+    background: url(../imagens/bg_textura_rodape.png);
     background-size: cover;
     padding-top: 1px;
 }

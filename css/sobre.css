@@ -1,11 +1,11 @@
 /*--> SOBRE <--*/
 
 #sobre {
-    max-width: 813px;
+    max-width: 970px;
     height: 720px;
     max-height: 720px;
     margin: auto;
-    margin-top: -590px;
+    margin-top: -540px;
     padding: 50px;
     position: relative;
     z-index: 10;
@@ -15,14 +15,16 @@
     border: 1px solid rgba(255, 255, 255, 0.5);
 }
 
+.container-eu-sou {
+    margin: auto;
+    padding: 160px 0 132px 0;
+}
+
 .eu-sou {
-    width: 40%;
-    max-width: 40%;
+    width: 400px;
+    display: inline-block;
+    margin-left: 65px;
     text-align: center;
-    display: block;
-    margin-top: 115px;
-    margin-left: 50px;
-    float: left;
 }
 
 .eu-sou h2 {
@@ -44,14 +46,27 @@
     margin-bottom: 40px;
 }
 
+.botao {
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    color: #fff;
+    padding: 16px 50.70px;
+    background-color: #FFC248;
+    border-radius: 10px;
+    box-shadow: -5px 5px 10px rgba(73, 73, 73, 0.6)
+}
+
+.botao:hover {
+    background-color: #fff;
+    color: #262729;
+}
+
 .pessoal {
-    width: 40%;
-    max-width: 40%;
-    display: block;
+    width: 400px;
+    display: inline-block;
+    margin-left: 30px;
     text-align: center;
-    float: right;
-    margin-top: 285px;
-    margin-right: 50px;
 }
 
 .pessoal img {
@@ -59,8 +74,10 @@
 }
 
 .pessoal p {
-    font-size: 12px;
+    width: 285px;
+    font-size: 15px;
     text-align: justify;
+    margin: auto;
     margin-top: 20px;
     padding: 0 30px;
 }

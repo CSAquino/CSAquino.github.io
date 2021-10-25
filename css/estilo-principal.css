@@ -52,7 +52,7 @@ body {
     /*----------------> SOBRE <------------------*/
 
 #sobre {
-    max-width: 970px;  
+    max-width: 970px;
     margin: auto;
     margin-top: -540px;
     position: relative;
@@ -237,8 +237,6 @@ body {
     border: none;
     border-radius: 10px;
 }
-<<<<<<< HEAD
-=======
 
 .texto {
     width: 315px;
@@ -258,13 +256,3 @@ body {
     margin: auto;
     display: block;
 }
-
-
-
-=======
-}
->>>>>>> df7a35b1bf6ad5d42545d9acbafb4a0a8f031c67
-=======
-}
->>>>>>> df7a35b1bf6ad5d42545d9acbafb4a0a8f031c67
->>>>>>> 8e79342 (CORRECOES)

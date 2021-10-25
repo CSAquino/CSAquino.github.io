@@ -2,7 +2,7 @@
 
 #topo {
     width: 100%;
-    height: 853px;
+    height: 800px;
     background: url(../imagens/bg_topo.png) no-repeat 100% center;
     background-size: cover;
 }
@@ -31,8 +31,8 @@
 
 #topo h1 {
     font-family: 'Kaushan Script', cursive;
-    font-size: 50pt;
-    margin-top: 64px;
+    font-size: 60pt;
+    margin-top: 54px;
     margin-bottom: 44px;
     text-align: center;
 }

@@ -1,5 +1,3 @@
-/* BOTÃO */
-
 .botao {
     text-decoration: none;
     list-style: none;
@@ -14,4 +12,10 @@
 .botao:hover {
     background-color: #fff;
     color: #262729;
+}
+
+.botao-contato {
+    margin-top: 50px;
+    margin: auto;
+    display: block;
 }

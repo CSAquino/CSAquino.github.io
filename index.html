@@ -100,17 +100,17 @@
                 <header>
                     <h3>CONTATE-ME</h3>
                 </header>
-                <form action="" method="post">
-                    <div>
-                        <input type="text" name="nome" value="Seu Nome">
-                        <input type="email" name="Seu melhor e-mail">
+                <form id="contate-me" action="" method="post">
+                    <div class="area-contate-me">
+                        <div class="nome-email">
+                            <input type="text" name="nome" value="Seu Nome">
+                            <input type="email" name="email" value="Seu Melhor email">
+                        </div>
+                        <div class="texto">
+                            <textarea class="area-texto" name="talk" cols="32" rows="10"></textarea>
+                        </div>
                     </div>
-                    <div>
-                        <fieldset>
-                            <textarea name="Mensagem"></textarea>
-                        </fieldset>
-                        <input class="botao" type="submit" name="sender" value="ENVIAR">
-                    </div>
+                    <input class="botao botao-contato" type="submit" name="sender" value="ENVIAR">
                 </form>
             </div>
 

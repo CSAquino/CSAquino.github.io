@@ -149,29 +149,40 @@ body {
     padding: 50px;
     position: relative;
     z-index: 11;
-    /*box-shadow: -10px 15px 10px rgba(73, 73, 73, 25%);*/
     text-align: center;
 }
 
-/*.bg-trabalho {
-    width: 990px;
-    margin-top: -67px;
-    margin-left: -22px;
-}*/
-
 .container-trabalho {
     height: 800px;
-    /*background: url(../imagens/bg-trabalhos.png) no-repeat bottom;*/
     background-size: cover;
     padding-top: 62px;
 }
 
 .container-trabalho aside h3 {
-    margin-top: 80px;
+    margin-top: 120px;
     margin-bottom: 50px;
     text-transform: uppercase;
     color: #262729;
 }
+
+.area-portfolio {
+    max-width: 658px;
+    margin: auto;
+}
+
+.area-portfolio a {
+    width: 314.84px;
+    height: 197px;
+    background: #E5E5E5;
+    display: inline-block;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.area-portfolio a:hover {
+    background: linear-gradient(180deg, rgb(47, 47, 47, 10%), rgb(47, 47, 47, 90%));
+}
+
 
     /*----------------> CONTATO <----------------*/
 
@@ -187,11 +198,73 @@ body {
     width: 813px;
     background-size: cover;
     margin: auto;
-    margin-top: 200px;
+    margin-top: 150px;
     padding: 50px;
 }
 
 .formulario header {
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 70px;
 }
+
+#contate-me {
+    padding: 20px;
+    border: 1px solid red;
+}
+
+.area-contate-me {
+    width: 700px;
+    margin: auto;
+    border: 1px solid red;
+}
+
+.nome-email {
+    width: 315px;
+    display: inline-block;
+    margin-bottom: 25px;
+    border: 1px solid red;
+}
+
+.nome-email input {
+    width: 315px;
+    height: 50px;
+    background: #707070;
+    font-size: 10px;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    padding-left: 15px;
+    border: none;
+    border-radius: 10px;
+}
+<<<<<<< HEAD
+=======
+
+.texto {
+    width: 315px;
+    display: inline-block;
+    background: #707070;
+    font-size: 10px;
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 25px;
+    margin-left: 30px;
+    border-radius: 10px;
+    border: 1px solid red;
+}
+
+.botao-contato {
+    margin-top: 50px;
+    margin: auto;
+    display: block;
+}
+
+
+
+=======
+}
+>>>>>>> df7a35b1bf6ad5d42545d9acbafb4a0a8f031c67
+=======
+}
+>>>>>>> df7a35b1bf6ad5d42545d9acbafb4a0a8f031c67
+>>>>>>> 8e79342 (CORRECOES)

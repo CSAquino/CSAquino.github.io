@@ -10,3 +10,176 @@ body {
     font-size: 15px;
     color: #fff;
 }
+    /*--> TOPO <--*/
+
+#topo {
+    width: 100%;
+    height: 853px;
+    background: url(../imagens/bg_topo.png) no-repeat 100% center;
+    background-size: cover;
+}
+
+#topo nav {
+    width: 100%;
+    height: 65px;
+    background-color: rgb(47, 47, 47, 30%);
+}
+
+#topo nav ul {
+    text-align: center;
+}
+
+#topo nav ul a {
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    color: #fff;
+    padding: 25px 34px;
+}
+
+#topo nav ul a:hover {
+    background-color: #FFC248;
+}
+
+#topo h1 {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 50pt;
+    margin-top: 64px;
+    margin-bottom: 44px;
+    text-align: center;
+}
+
+    /*--> SOBRE <--*/
+
+#sobre {
+    max-width: 813px;
+    height: 720px;
+    background: linear-gradient(186deg, rgb(47, 47, 47, 50%), rgb(47, 47, 47, 100%) );
+    margin: auto;
+    margin-top: -590px;
+    padding: 50px;
+    position: relative;
+    z-index: 10;
+    box-shadow: -10px 15px 10px rgba(73, 73, 73, 25%)
+}
+
+.eu-sou {
+    width: 40%;
+    max-width: 40%;
+    text-align: center;
+    display: block;
+    margin-top: 115px;
+    margin-left: 50px;
+    float: left;
+}
+
+.eu-sou h2 {
+    font-size: 4em;
+    text-transform: uppercase;
+    line-height: 90%;
+    margin-bottom: 15px;
+}
+
+.ano-trabalho {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 1.6em;
+    margin-bottom: 15px;
+}
+
+.eu-texto {
+    font-size: 20px;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+
+.botao {
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    color: #fff;
+    padding: 16px 50.70px;
+    background-color: #FFC248;
+    border-radius: 10px;
+    box-shadow: -5px 5px 10px rgba(73, 73, 73, 0.6)
+}
+
+.botao:hover {
+    background-color: #fff;
+    color: #262729;
+}
+
+.pessoal {
+    width: 40%;
+    max-width: 40%;
+    display: block;
+    text-align: center;
+    float: right;
+    margin-top: 285px;
+    margin-right: 50px;
+}
+
+.pessoal img {
+    border-radius: 100%;
+}
+
+.pessoal p {
+    font-size: 12px;
+    text-align: justify;
+    margin-top: 20px;
+    padding: 0 30px;
+}
+
+    /*--> TRABALHO <--*/
+
+#trabalho {
+    width: 100%;
+    height: 768px;
+    background: url(../imagens/bg-textura.png);
+    background-size: cover;
+    margin-top: -272px;
+    padding-top: 1px;
+}
+
+#trabalho aside {
+    max-width: 813px;
+    height: 720px;
+    background: url(../imagens/bg-trabalhos.png) no-repeat center;
+    background-size: cover;
+    margin: auto;
+    margin-top: 150px;
+    padding: 50px;
+    position: relative;
+    z-index: 11;
+    box-shadow: -10px 15px 10px rgba(73, 73, 73, 25%);
+    text-align: center;
+}
+
+#trabalho aside h3 {
+    margin-top: 80px;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    color: #262729;
+}
+
+    /*--> CONTATO <--*/
+
+#contato {
+    width: 100%;
+    height: 768px;
+    background: url(../imagens/bg-textura-rodape.png);
+    background-size: cover;
+    padding-top: 1px;
+}
+
+.formulario {
+    width: 813px;
+    background-size: cover;
+    margin: auto;
+    margin-top: 200px;
+    padding: 50px;
+}
+
+.formulario header {
+    text-align: center;
+    margin-bottom: 50px;
+}

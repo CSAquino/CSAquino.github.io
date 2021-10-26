@@ -5,16 +5,13 @@
     height: 743px;
     background: url(../imagens/bg_textura.png);
     background-size: cover;
-    margin-top: -145px;
-    padding-top: 1px;
 }
 
 #trabalho aside {
-    max-width: 900px;
+    max-width: 70vw;
     height: 720px;
-    background: url(../imagens/bg-trabalhos.png) no-repeat left;
+    background: url(../imagens/bg-trabalhos.png) no-repeat center;
     background-size: 992px;
-    background-position-x: -7px;
     margin: auto;
     padding: 50px;
     position: relative;
@@ -25,7 +22,6 @@
 .container-trabalho {
     height: 800px;
     background-size: cover;
-    padding-top: 62px;
 }
 
 .container-trabalho aside h3 {

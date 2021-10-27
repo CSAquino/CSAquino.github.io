@@ -1,11 +1,10 @@
 /*--> SOBRE <--*/
 
 #sobre {
-    max-width: 970px;
+    max-width: 70vw;
     height: 720px;
     max-height: 720px;
     margin: auto;
-    margin-top: -540px;
     padding: 50px;
     position: relative;
     z-index: 10;
@@ -18,6 +17,11 @@
 .container-eu-sou {
     margin: auto;
     padding: 160px 0 132px 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: flex-end;
 }
 
 .eu-sou {

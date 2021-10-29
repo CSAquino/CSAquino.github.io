@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
     <link rel="stylesheet" type="text/css" href="css/font.css">
+    <link rel="stylesheet" type="text/css" href="css/variaveis.css">
     <link rel="stylesheet" type="text/css" href="css/estilo-principal.css">
     <link rel="stylesheet" type="text/css" href="css/topo.css">
     <link rel="stylesheet" type="text/css" href="css/sobre.css">
@@ -14,6 +15,7 @@
     <link rel="stylesheet" type="text/css" href="css/contato.css">
     <link rel="stylesheet" type="text/css" href="css/componentes/botao.css">
     <title>Cleiton Aquino - Portfólio</title>
+    <link rel="icon" type="image/png" href="imagens/favicon_cleiton_aquino.png">
 
 </head>
 
@@ -36,10 +38,10 @@
                         <li>CONTATE-ME</li>
                     </a>
                 </ul>
-                <div id="redes">
+                <!-- <div id="redes">
                     <img src="" alt="">
                     <img src="" alt="">
-                </div>
+                </div> -->
             </nav>
             <h1>Cleiton</h1>
 
@@ -75,47 +77,50 @@
 
         <!--=====================  TRABALHO  =====================-->
         <section id="trabalho">
-            <div class="container-trabalho">
-                <aside>
-                    <h3>trabalhos selecionados</h3>
-                    <div class="area-portfolio">
-                        <a href="">
-                            <img src="" alt="">
-                        </a>
-                        <a href="">
-                            <img src="" alt="">
-                        </a>
-                        <a href="">
-                            <img src="" alt="">
-                        </a>
-                        <a href="">
-                            <img src="" alt="">
-                        </a>
-                    </div>
-                </aside>
+            <div class="background-trabalho">
+                <div class="container-trabalho">
+                    <aside>
+                        <h3>trabalhos selecionados</h3>
+                        <div class="area-portfolio">
+                            <a href="">
+                                <img src="" alt="">
+                            </a>
+                            <a href="">
+                                <img src="" alt="">
+                            </a>
+                            <a href="">
+                                <img src="" alt="">
+                            </a>
+                            <a href="">
+                                <img src="" alt="">
+                            </a>
+                        </div>
+                    </aside>
+                </div>
             </div>
         </section>
 
         <!--=====================  CONTATO =====================-->
         <section id="contato">
-            <div class="formulario">
-                <header>
-                    <h3>CONTATE-ME</h3>
-                </header>
-                <form id="contate-me" action="" method="post">
-                    <div class="area-contate-me">
-                        <div class="nome-email">
-                            <input type="text" name="nome" value="Seu Nome">
-                            <input type="email" name="email" value="Seu Melhor email">
+            <div class="background-contato">
+                <div class="formulario">
+                    <header>
+                        <h3>CONTATE-ME</h3>
+                    </header>
+                    <form id="contate-me" action="" method="post">
+                        <div class="area-contate-me">
+                            <div class="nome-email">
+                                <input type="text" name="nome" value="Seu Nome">
+                                <input type="email" name="email" value="Seu Melhor email">
+                            </div>
+                            <div class="texto">
+                                <textarea class="area-texto" name="talk" cols="32" rows="10"></textarea>
+                            </div>
                         </div>
-                        <div class="texto">
-                            <textarea class="area-texto" name="talk" cols="32" rows="10"></textarea>
-                        </div>
-                    </div>
-                    <input class="botao botao-contato" type="submit" name="sender" value="ENVIAR">
-                </form>
+                        <input class="botao botao-contato" type="submit" name="sender" value="ENVIAR">
+                    </form>
+                </div>
             </div>
-
         </section>
     </article>
 

@@ -1,34 +1,62 @@
 /*--> SOBRE <--*/
 
 #sobre {
-    max-width: 970px;
-    height: 720px;
-    max-height: 720px;
+    min-height: 600px;
+    max-width: 100vw;
     margin: auto;
-    margin-top: -540px;
-    padding: 50px;
-    position: relative;
-    z-index: 10;
-    background: linear-gradient(180deg, rgba(47, 47, 47, 0.05) 0%, rgba(47, 47, 47, 0.34633) 17.71%, #2F2F2F 56.77%);
-    box-shadow: -10px 15px 10px rgba(0, 0, 0, 0.25);
+    padding: 30px;
+    padding-bottom: 100px;
+    background: url(../imagens/top-bg-trabalhos.png), linear-gradient(180deg, rgba(47, 47, 47, 0.05) 0%, rgba(47, 47, 47, 0.34633) 17.71%, #2F2F2F 56.77%);
+    /* box-shadow: -10px 15px 10px rgba(0, 0, 0, 0.25); */
     backdrop-filter: blur(3px);
     border: 1px solid rgba(255, 255, 255, 0.5);
+    border-bottom-style: none;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: contain;
+}
+
+@media (min-width: 700px) {
+    #sobre {
+        padding: 50px;
+        padding-top: 100px;
+        padding-bottom: 0;
+        max-width: 70vw;
+    }
 }
 
 .container-eu-sou {
-    margin: auto;
-    padding: 160px 0 132px 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
 }
 
-.eu-sou {
-    width: 400px;
-    display: inline-block;
-    margin-left: 65px;
+.eu-sou,
+.pessoal {
+    width: 100%;
+    max-width: 500px;
     text-align: center;
 }
 
+.pessoal {
+    margin-top: 50px;
+}
+
+@media (min-width: 700px) {
+
+    .eu-sou,
+    .pessoal {
+        width: 45%;
+        text-align: center;
+        padding: 2.5%;
+    }
+}
+
+
 .eu-sou h2 {
-    font-size: 4em;
+    font-size: 3em;
     text-transform: uppercase;
     line-height: 90%;
     margin-bottom: 15px;
@@ -46,35 +74,12 @@
     margin-bottom: 40px;
 }
 
-.botao {
-    text-decoration: none;
-    list-style: none;
-    display: inline-block;
-    color: #fff;
-    padding: 16px 50.70px;
-    background-color: #FFC248;
-    border-radius: 10px;
-    box-shadow: -5px 5px 10px rgba(73, 73, 73, 0.6)
-}
-
-.botao:hover {
-    background-color: #fff;
-    color: #262729;
-}
-
-.pessoal {
-    width: 400px;
-    display: inline-block;
-    margin-left: 30px;
-    text-align: center;
-}
-
 .pessoal img {
     border-radius: 100%;
 }
 
 .pessoal p {
-    width: 285px;
+    /* width: 285px; */
     font-size: 15px;
     text-align: justify;
     margin: auto;

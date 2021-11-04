@@ -7,8 +7,7 @@
 }
 
 .background-contato {
-    width: 70vw;
-    padding: 50px;
+    max-width: 100vw;
     background-image: url('../imagens/bottom-bg-trabalhos.png');
     background-repeat: no-repeat;
     background-position: top center;
@@ -16,19 +15,35 @@
     margin: 0 auto;
 }
 
+@media (min-width: 700px) {
+    .background-contato {
+        max-width: 70vw;
+    }
+}
+
 .formulario {
-    padding-top: 50px;
+    max-width: 350px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    margin: 0 auto;
 }
 
 @media (min-width: 700px) {
     .formulario {
-        padding-top: 100px;
+        padding-bottom: 100px;
     }
 }
 
 .formulario header {
     text-align: center;
-    margin-bottom: 70px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+@media (min-width: 700px) {
+    .formulario header {
+        margin-top: 50px;
+    }
 }
 
 #contate-me {

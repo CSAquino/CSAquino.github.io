@@ -1,11 +1,9 @@
 /*----------------> TRABALHO <----------------*/
 
 #trabalho {
-    width: 100%;
+    max-width: 100vw;
     background: url('../imagens/bg_textura.png');
     background-size: cover;
-    display: flex;
-    justify-content: center;
     z-index: 999;
 }
 
@@ -17,12 +15,19 @@
 }
 
 .background-trabalho {
+    max-width: 100vw;
+    margin: auto;
     background-color: #b0aeaf;
 }
 
 .container-trabalho {
-    width: 100vw;
     padding: 50px 0;
+}
+
+@media (min-width: 700px) {
+    .background-trabalho {
+        width: 70vw;
+    }
 }
 
 .container-trabalho aside h3 {

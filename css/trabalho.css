@@ -71,13 +71,6 @@
 
 /*----------------> IMAGENS <----------------*/
 
-.area-portfolio a,
-.area-portfolio a:hover {
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
 .area-portfolio .img-01 {
     background: url(../imagens/museu-nacional.png);
 }
@@ -100,4 +93,11 @@
 
 .area-portfolio .img-03:hover {
     background: linear-gradient(0deg, rgba(37, 34, 24, 1) 0%, rgba(255, 255, 255, 0) 100%), url(../imagens/prefeitura-sjb.png);
+}
+
+.area-portfolio .img,
+.area-portfolio .img:hover {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }

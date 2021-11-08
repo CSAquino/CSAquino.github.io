@@ -100,4 +100,21 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    /* Safari, Chrome */
+    -webkit-background-position: center;
+    -webkit-background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    /* FF */
+    -moz-background-position: center;
+    -moz-background-repeat: no-repeat;
+    -moz-background-size: cover;
+    /* IE */
+    -ms-background-position: center;
+    -ms-background-repeat: no-repeat;
+    -ms-background-size: cover;
+    /* Opera */
+    -o-background-position: center;
+    -o-background-repeat: no-repeat;
+    -o-background-size: cover;
+
 }

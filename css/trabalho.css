@@ -48,12 +48,50 @@
 .area-portfolio a {
     width: 314.84px;
     height: 197px;
-    background: #E5E5E5;
-    display: inline-block;
+    display: flex;
     border-radius: 10px;
     margin: 5px;
 }
 
 .area-portfolio a:hover {
-    background: linear-gradient(180deg, rgb(47, 47, 47, 10%), rgb(47, 47, 47, 90%));
+background: linear-gradient(0deg, rgba(37,34,24,1) 0%, rgba(255,255,255,0) 100%);
+}
+
+.area-portfolio a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.tema-img {
+    width: 314.84px;
+    height: 197px;
+    display: flex;
+}
+
+.tema-img h4 {
+    align-self: flex-end;
+    padding: 15px 10px;
+}
+
+/*----------------> IMAGENS <----------------*/
+
+.area-portfolio .img-01 {
+    background: url(../imagens/museu-nacional.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.area-portfolio .img-02 {
+    background: url(../imagens/noticias-cidade.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.area-portfolio .img-03 {
+    background: url(../imagens/prefeitura-sjb.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }

@@ -71,35 +71,33 @@
 
 /*----------------> IMAGENS <----------------*/
 
-.area-portfolio .img-01 {
-    background: url(../imagens/museu-nacional.png);
+.area-portfolio a,
+.area-portfolio a:hover {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
+.area-portfolio .img-01 {
+    background: url(../imagens/museu-nacional.png);
+}
+
 .area-portfolio .img-01:hover {
-    background: url(../imagens/museu-nacional.png), linear-gradient(0deg, rgba(37, 34, 24, 1) 0%, rgba(255, 255, 255, 0) 100%);
+    background: linear-gradient(0deg, rgba(37, 34, 24, 1) 0%, rgba(255, 255, 255, 0) 100%), url(../imagens/museu-nacional.png);
 }
 
 .area-portfolio .img-02 {
     background: url(../imagens/noticias-cidade.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 .area-portfolio .img-02:hover {
-    background: url(../imagens/noticias-cidade.png), linear-gradient(0deg, rgba(37, 34, 24, 1) 0%, rgba(255, 255, 255, 0) 100%);
+    background: linear-gradient(0deg, rgba(37, 34, 24, 1) 0%, rgba(255, 255, 255, 0) 100%), url(../imagens/noticias-cidade.png);
 }
 
 .area-portfolio .img-03 {
     background: url(../imagens/prefeitura-sjb.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 .area-portfolio .img-03:hover {
-    background: url(../imagens/prefeitura-sjb.png), linear-gradient(0deg, rgba(37, 34, 24, 1) 0%, rgba(255, 255, 255, 0) 100%);
+    background: linear-gradient(0deg, rgba(37, 34, 24, 1) 0%, rgba(255, 255, 255, 0) 100%), url(../imagens/prefeitura-sjb.png);
 }

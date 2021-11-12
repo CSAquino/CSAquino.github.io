@@ -1,6 +1,7 @@
 /*--> SOBRE <--*/
 
 #sobre {
+    /* Posicionamento */
     box-sizing: border-box;
     min-height: 700px;
     max-width: 100vw;
@@ -8,14 +9,23 @@
     padding: 20px;
     padding-top: 50px;
     padding-bottom: 100px;
+
+    /* Fundo */
     background: url(../imagens/top-bg-trabalhos.png), linear-gradient(180deg, rgba(47, 47, 47, 0.05) 0%, rgba(47, 47, 47, 0.34633) 17.71%, #2F2F2F 56.77%);
-    /* box-shadow: -10px 15px 10px rgba(0, 0, 0, 0.25); */
-    backdrop-filter: blur(3px);
     border: 1px solid rgba(255, 255, 255, 0.5);
-    border-bottom-style: none;
     background-repeat: no-repeat;
     background-position: center bottom;
     background-size: contain;
+    border-bottom-style: none;
+
+    /* Vidro */
+    backdrop-filter: blur(6px);
+    box-shadow: inset 0 100px 250px 0px rgb(255 255 255 / 9%);
+    border-top: 2px solid rgba(225, 225, 225, 0.3);
+    border-right: 2px solid rgba(225, 225, 225, 0.2);
+    border-left: 2px solid rgba(225, 225, 225, 0.1);
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
 }
 
 @media (min-width: 700px) {
